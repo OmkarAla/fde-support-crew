@@ -1,0 +1,27 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "reason": "changed my mind",
+    "expect": { "action": "refund", "citation": "policy:refunds.eligible" }
+  },
+  {
+    "order_id": "ORD-1002",
+    "reason": "arrived cracked",
+    "expect": { "action": "replace", "citation": "policy:replace.damaged" }
+  },
+  {
+    "order_id": "ORD-1003",
+    "reason": "changed my mind",
+    "expect": { "action": "escalate", "citation": "policy:refunds.limit" }
+  },
+  {
+    "order_id": "ORD-1004",
+    "reason": "late return",
+    "expect": { "action": "escalate", "citation": "policy:returns.window" }
+  },
+  {
+    "order_id": "ORD-1005",
+    "reason": "not as described",
+    "expect": { "action": "escalate", "citation": "policy:risk.repeat_refunds" }
+  }
+]
